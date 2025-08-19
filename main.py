@@ -1,10 +1,10 @@
 #Recebendo Dados
 usuario = input('Coloque seu nome e sobrenome: ')
 celular = int(input('Coloque o número do celular: '))
-altura1 = float(input('Coloque sua altura(em metros): '))
-altura = altura1.replace(",",".") #substitui a vírgula por ponto
-peso1 = float(input('Coloque seu peso(em kg): '))
-peso = peso1.replace(",",".") #substitui a vírgula por ponto
+altura1 = input('Coloque sua altura(em metros): ')
+altura = float(altura1.replace(",",".")) #substitui a vírgula por ponto
+peso1 = input('Coloque seu peso(em kg): ')
+peso = float(peso1.replace(",",".")) #substitui a vírgula por ponto
 
 #Calculando
 imc = peso /(altura*altura)
